@@ -1,0 +1,27 @@
+<view class="star-rate-wraper">
+  <view class="content">
+    <view class="item">
+      <view class="title">含半颗星</view>
+        <star-rate
+          score="{{score}}"
+          bindchangeStar="changeStar">
+        </star-rate>
+    </view>
+    <view class="item">
+      <view class="title">无半星</view>
+        <star-rate
+          hasHalfStar="{{false}}"
+          bindchangeStar="changeStar">
+        </star-rate>
+    </view>
+    <view class="item">
+      <view class="title">展示评分</view>
+        <star-rate
+          score="8"
+          isStarEdit="{{false}}"
+          hasHalfStar="{{false}}"
+          bindchangeStar="changeStar">
+        </star-rate>
+    </view>
+  </view>
+</view>

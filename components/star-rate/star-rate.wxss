@@ -1,0 +1,61 @@
+.star-rate-panel {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+     -moz-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+     -moz-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .star-rate-panel .score {
+    margin-left: 20rpx; }
+
+.add-record {
+  font-size: 32rpx; }
+  .add-record .score {
+    color: #F05077; }
+
+.star-list {
+  max-width: 420rpx;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+     -moz-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+     -moz-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .star-list .star-item {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+       -moz-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+       -moz-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 90rpx;
+    height: 48rpx; }
+    .star-list .star-item .star-score {
+      width: 50rpx;
+      height: 100%;
+      background: url("https://img-test.jingfd.com/images/gulp/star.png?v=45e799f2cbbf03a185a3a1389ea76717") no-repeat;
+      background-size: 190rpx 68rpx;
+      background-position-y: center;
+      background-position-x: -70rpx; }
+    .star-list .star-item .star-half {
+      background-position-x: -130rpx; }
+    .star-list .star-item .star-all {
+      background-position-x: -10rpx; }

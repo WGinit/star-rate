@@ -1,0 +1,17 @@
+.star-rate-wraper {
+  position: relative;
+  width: 100%;
+  padding: 40rpx 20rpx;
+  overflow: hidden;
+}
+.content .item {
+  display: flex;
+  align-items: center;
+  padding: 20rpx 0;
+}
+.item .title {
+  font-size: 32rpx;
+  color: #333;
+  margin-right: 20rpx;
+}
+
